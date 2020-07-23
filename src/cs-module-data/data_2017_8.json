@@ -1,0 +1,502 @@
+[
+ {
+   "Module Code": "COMP0119",
+   "Module Name": "Acquisition and Processing of 3D Geometry",
+   "Mean": 72.32,
+   "5th": 62,
+   "25th": 68,
+   "75th": 76,
+   "95th": 83,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0083",
+   "Module Name": "Advanced Topics in Machine Learning",
+   "Mean": 60.13,
+   "5th": 45.05,
+   "25th": 50,
+   "75th": 70,
+   "95th": 71.3,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0053",
+   "Module Name": "Affective Computing and Human-Robot Interaction",
+   "Mean": 65.55,
+   "5th": 54,
+   "25th": 60.5,
+   "75th": 71.5,
+   "95th": 78.7,
+   "Level": 7
+ },
+ {
+   "Module Code": "MATH0053",
+   "Module Name": "Algebra 4: Groups and Rings",
+   "Mean": 61.04,
+   "5th": 34,
+   "25th": 49.5,
+   "75th": 74,
+   "95th": 88.6,
+   "Level": 6
+ },
+ {
+   "Module Code": "MATH0035",
+   "Module Name": "Algebraic Number Theory",
+   "Mean": 71.54,
+   "5th": 42.1,
+   "25th": 61.5,
+   "75th": 86.5,
+   "95th": 97,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0058",
+   "Module Name": "Applied Cryptography",
+   "Mean": 67,
+   "5th": 18,
+   "25th": 66.75,
+   "75th": 80.5,
+   "95th": 88.75,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0081",
+   "Module Name": "Applied Machine Learning",
+   "Mean": 64.86,
+   "5th": 43.9,
+   "25th": 54,
+   "75th": 75,
+   "95th": 90,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0024",
+   "Module Name": "Artificial Intelligence and Neural Computing",
+   "Mean": 62.21,
+   "5th": 36.3,
+   "25th": 50.75,
+   "75th": 75,
+   "95th": 86.85,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0082",
+   "Module Name": "Bioinformatics",
+   "Mean": 75.78,
+   "5th": 54.2,
+   "25th": 71.5,
+   "75th": 85,
+   "95th": 87,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0123",
+   "Module Name": "Complex Networks and Web",
+   "Mean": 71.52,
+   "5th": 50.6,
+   "25th": 63,
+   "75th": 79,
+   "95th": 86.8,
+   "Level": 7
+ },
+ {
+   "Module Code": "MATH0086",
+   "Module Name": "Computational and Simulation Methods",
+   "Mean": 70.48,
+   "5th": 50,
+   "25th": 61,
+   "75th": 81,
+   "95th": 86.8,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0017",
+   "Module Name": "Computational Complexity",
+   "Mean": 63.07,
+   "5th": 38.05,
+   "25th": 52,
+   "75th": 75,
+   "95th": 89.95,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0118",
+   "Module Name": "Computational Modelling for Biomedical Imaging",
+   "Mean": 66.76,
+   "5th": 50.6,
+   "25th": 57,
+   "75th": 74,
+   "95th": 89.4,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0028",
+   "Module Name": "Computational Photography and Capture",
+   "Mean": 70.9,
+   "5th": 49.45,
+   "25th": 62,
+   "75th": 82,
+   "95th": 88.55,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0027",
+   "Module Name": "Computer Graphics",
+   "Mean": 80.37,
+   "5th": 58.9,
+   "25th": 73.25,
+   "75th": 89,
+   "95th": 95.55,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0054",
+   "Module Name": "Computer Security I",
+   "Mean": 63.46,
+   "5th": 41.7,
+   "25th": 54,
+   "75th": 74.75,
+   "95th": 82.55,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0055",
+   "Module Name": "Computer Security II",
+   "Mean": 71.24,
+   "5th": 52.1,
+   "25th": 66.25,
+   "75th": 80,
+   "95th": 88.85,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0019",
+   "Module Name": "Computer Systems",
+   "Mean": 61.28,
+   "5th": 23.9,
+   "25th": 49,
+   "75th": 75,
+   "95th": 86.05,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0022",
+   "Module Name": "Database and Information Management Systems",
+   "Mean": 61.95,
+   "5th": 44.55,
+   "25th": 54,
+   "75th": 70,
+   "95th": 77,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0133",
+   "Module Name": "Distributed Systems and Security",
+   "Mean": 63.45,
+   "5th": 37.5,
+   "25th": 53,
+   "75th": 74,
+   "95th": 80.5,
+   "Level": 7
+ },
+ {
+   "Module Code": "MATH0082",
+   "Module Name": "Evolutionary Games and Population Genetics",
+   "Mean": 55.63,
+   "5th": 43.1,
+   "25th": 49.25,
+   "75th": 58.5,
+   "95th": 73.95,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0105",
+   "Module Name": "Financial Institutions and Markets",
+   "Mean": 65.86,
+   "5th": 56,
+   "25th": 62,
+   "75th": 70.75,
+   "95th": 76,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0020",
+   "Module Name": "Functional Programming",
+   "Mean": 66.26,
+   "5th": 42,
+   "25th": 55,
+   "75th": 77.5,
+   "95th": 95.55,
+   "Level": 6
+ },
+ {
+   "Module Code": "ECON0027",
+   "Module Name": "Game Theory",
+   "Mean": 60.02,
+   "5th": 40,
+   "25th": 52,
+   "75th": 68,
+   "95th": 80.95,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0080",
+   "Module Name": "Graphical Models",
+   "Mean": 67.76,
+   "5th": 46.75,
+   "25th": 57.75,
+   "75th": 78,
+   "95th": 88,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0026",
+   "Module Name": "Image Processing",
+   "Mean": 66.5,
+   "5th": 44.35,
+   "25th": 58,
+   "75th": 76,
+   "95th": 90.3,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0084",
+   "Module Name": "Information Retrieval and Data Mining",
+   "Mean": 59.89,
+   "5th": 44.5,
+   "25th": 51,
+   "75th": 66,
+   "95th": 75,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0021",
+   "Module Name": "Interaction Design",
+   "Mean": 68.64,
+   "5th": 51,
+   "25th": 63,
+   "75th": 76,
+   "95th": 84,
+   "Level": 6
+ },
+ {
+   "Module Code": "STAT0007",
+   "Module Name": "Introduction to Applied Probability",
+   "Mean": 63.42,
+   "5th": 40,
+   "25th": 50,
+   "75th": 77,
+   "95th": 87,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0025",
+   "Module Name": "Introduction to Cryptography",
+   "Mean": 57.97,
+   "5th": 28.35,
+   "25th": 50,
+   "75th": 70,
+   "95th": 78.9,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0014",
+   "Module Name": "Introduction to Deep Learning",
+   "Mean": 72.57,
+   "5th": 56,
+   "25th": 66,
+   "75th": 80,
+   "95th": 87.9,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0090",
+   "Module Name": "Inverse Problems in Imaging",
+   "Mean": 69.79,
+   "5th": 54.7,
+   "25th": 60.75,
+   "75th": 78.25,
+   "95th": 85.6,
+   "Level": 7
+ },
+ {
+   "Module Code": "MATH0075",
+   "Module Name": "Lie Groups and Lie Algebras (Masters Level)",
+   "Mean": 61.17,
+   "5th": 51.5,
+   "25th": 54.5,
+   "75th": 66.5,
+   "95th": 74.25,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0137",
+   "Module Name": "Machine Vision",
+   "Mean": 67.6,
+   "5th": 46,
+   "25th": 58.5,
+   "75th": 77,
+   "95th": 87,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0060",
+   "Module Name": "Malware",
+   "Mean": 60.35,
+   "5th": 43,
+   "25th": 56.5,
+   "75th": 68.75,
+   "95th": 75.5,
+   "Level": 7
+ },
+ {
+   "Module Code": "MATH0030",
+   "Module Name": "Mathematical Ecology",
+   "Mean": 59.17,
+   "5th": 35,
+   "25th": 47.5,
+   "75th": 70,
+   "95th": 86.65,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0112",
+   "Module Name": "Mathematical Methods, Algorithmics and Implementations",
+   "Mean": 69.42,
+   "5th": 48.2,
+   "25th": 59,
+   "75th": 82,
+   "95th": 88.9,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0023",
+   "Module Name": "Networked Systems",
+   "Mean": 63.03,
+   "5th": 40,
+   "25th": 54.5,
+   "75th": 73,
+   "95th": 83.9,
+   "Level": 6
+ },
+ {
+   "Module Code": "COMP0044",
+   "Module Name": "Operational Risk Measurement for Financial Institutions",
+   "Mean": 70.13,
+   "5th": 59.9,
+   "25th": 65,
+   "75th": 75,
+   "95th": 81,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0056",
+   "Module Name": "People and Security",
+   "Mean": 61.78,
+   "5th": 54,
+   "25th": 56,
+   "75th": 67,
+   "95th": 71,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0061",
+   "Module Name": "Privacy Enhancing Technologies",
+   "Mean": 61.59,
+   "5th": 45.25,
+   "25th": 55.5,
+   "75th": 68,
+   "95th": 74,
+   "Level": 7
+ },
+ {
+   "Module Code": "STAT0005",
+   "Module Name": "Probability and Inference",
+   "Mean": 64.58,
+   "5th": 40,
+   "25th": 50,
+   "75th": 77,
+   "95th": 89,
+   "Level": 6
+ },
+ {
+   "Module Code": "MATH0088",
+   "Module Name": "Quantitative and Computational Finance",
+   "Mean": 63.13,
+   "5th": 38.75,
+   "25th": 52,
+   "75th": 74,
+   "95th": 81.75,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0101",
+   "Module Name": "Requirements Engineering and Software Architecture",
+   "Mean": 63.03,
+   "5th": 50,
+   "25th": 57,
+   "75th": 66,
+   "95th": 83,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0102",
+   "Module Name": "Software Abstractions and Systems Integration",
+   "Mean": 73.15,
+   "5th": 64.2,
+   "25th": 68,
+   "75th": 78.5,
+   "95th": 82.7,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0087",
+   "Module Name": "Statistical Natural Language Processing",
+   "Mean": 78.89,
+   "5th": 65,
+   "25th": 74,
+   "75th": 84,
+   "95th": 89,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0078",
+   "Module Name": "Supervised Learning",
+   "Mean": 66.02,
+   "5th": 40,
+   "25th": 51,
+   "75th": 81,
+   "95th": 92,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0104",
+   "Module Name": "Tools and Environments",
+   "Mean": 62.8,
+   "5th": 37.9,
+   "25th": 53.5,
+   "75th": 76.25,
+   "95th": 83,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0103",
+   "Module Name": "Validation and Verification",
+   "Mean": 59.18,
+   "5th": 43.7,
+   "25th": 50,
+   "75th": 66.75,
+   "95th": 80.3,
+   "Level": 7
+ },
+ {
+   "Module Code": "COMP0113",
+   "Module Name": "Virtual Environments",
+   "Mean": 66.8,
+   "5th": 60.8,
+   "25th": 63,
+   "75th": 68.5,
+   "95th": 79.3,
+   "Level": 7
+ }
+]
