@@ -4,22 +4,34 @@ import './App.css';
 import Navbar from './NavBar'
 import Home from './Home'
 import Level from './Level'
+import ModuleChart from './ModuleChart';
 
 function App() {
-  let data2015 = require("./cs-module-data/data_2015_6.json") 
-  let data2016 = require("./cs-module-data/data_2016_7.json") 
-  let data2017 = require("./cs-module-data/data_2017_8.json") 
-  let data2018 = require("./cs-module-data/data_2018_9.json") 
-  const moduledata = [data2015,data2016,data2017,data2018]
+  let data2015 = require("./cs-module-data/data_2015_6.json")
+  let data2016 = require("./cs-module-data/data_2016_7.json")
+  let data2017 = require("./cs-module-data/data_2017_8.json")
+  let data2018 = require("./cs-module-data/data_2018_9.json")
+  const moduledata = [data2015, data2016, data2017, data2018]
+
+  let modulecodes = data2018.map(x => x["Module Code"])
 
   return (
     <div className="App">
       <Router>
-      <Navbar />
+        <Navbar />
         <Switch>
           <Route exact path="/"><Home data={moduledata} />  </Route>
-          <Route exact path="/level6"><Level level={6} data={moduledata}/>  </Route>
-          <Route exact path="/level7"><Level level={7} data={moduledata}/>  </Route>
+          <Route exact path="/level6"><Level level={6} data={moduledata} />  </Route>
+          <Route exact path="/level7"><Level level={7} data={moduledata} />  </Route>
+
+          {
+            modulecodes.map(x => {
+              let mod_path = "/";
+              mod_path = mod_path.concat(x);
+              return <Route exact path={mod_path}> <ModuleChart data={moduledata} modcode={x} /> </Route>
+            })
+          }
+
         </Switch>
       </Router>
     </div>

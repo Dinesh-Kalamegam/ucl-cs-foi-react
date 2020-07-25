@@ -13,11 +13,12 @@ function Home(props) {
             <BarChart arr={data2015} > </BarChart>    
             <BarChart arr={data2016} > </BarChart>  
             <BarChart arr={data2017}> </BarChart>  
-            <LineChart arr={data2018} > </LineChart>  
+            <BarChart arr={data2018} > </BarChart>  
 
-            {data2018.map(x =><ModuleChart data={props.data} modcode={x['Module Code']}></ModuleChart> )}
+            {/* {data2018.map(x =><ModuleChart data={props.data} modcode={x['Module Code']}></ModuleChart> )} */}
             {/* <ModuleChart data={props.data} modcode="COMP0019"></ModuleChart> */}
         
+            console.log("Hello")
 
         </div>
     )
