@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route,Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './App.css'
 
 function Level(props) {
@@ -8,6 +8,7 @@ function Level(props) {
         <div className="level">
             {data2018.filter(x => x.Level === props.level).map(x => (
                 <div className="card" key={x["Module Code"]}>
+                    <Link to={"/"+x["Module Code"]}>
                     
                     <div className="card-header">
                         <h2> {x["Module Code"]} </h2>
@@ -16,6 +17,7 @@ function Level(props) {
                     <div className="card-main">
                         <h2 className="main-description"> {x["Module Name"]} </h2>
                     </div>
+                </Link>
                 </div>
             ))}
         </div>

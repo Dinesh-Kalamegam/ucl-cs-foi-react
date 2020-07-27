@@ -1,5 +1,5 @@
 import React from 'react'
-import {Line} from 'react-chartjs-2'
+import { Line } from 'react-chartjs-2'
 
 function ModuleChart(props) {
     const years = [2015, 2016, 2017, 2018]
@@ -9,20 +9,18 @@ function ModuleChart(props) {
     const percentile_75 = {}
     const percentile_95 = {}
 
-    for (const [i,element] of props.data.entries()){
-
-
+    for (const [i, element] of props.data.entries()) {
         let modulecodes = element.map(x => x["Module Code"])
 
-        if (modulecodes.includes(props.modcode)){
-            console.log(element)
+        if (modulecodes.includes(props.modcode)) {
+            // console.log(element)
             means[i] = element[modulecodes.indexOf(props.modcode)]['Mean']
             percentile_5[i] = element[modulecodes.indexOf(props.modcode)]['5th']
             percentile_25[i] = element[modulecodes.indexOf(props.modcode)]['25th']
             percentile_75[i] = element[modulecodes.indexOf(props.modcode)]['75th']
             percentile_95[i] = element[modulecodes.indexOf(props.modcode)]['95th']
         }
-        else{
+        else {
             means[i] = 0
             percentile_5[i] = 0
             percentile_25[i] = 0
@@ -30,43 +28,56 @@ function ModuleChart(props) {
             percentile_95[i] = 0
         }
     }
-    
+
     const fill_val = false
-    const chart_data ={
+    const chart_data = {
         labels: years,
-        datasets:[
+        datasets: [
             {
                 label: "Mean",
-                data : Object.values(means),
-                fill:fill_val,
-                
+                data: Object.values(means),
+                fill: fill_val,
+                borderColor: "black",
+                backgroundColor: "black"
+
             },
 
             {
                 label: "5th",
-                data : Object.values(percentile_5),
-                fill:fill_val,
+                data: Object.values(percentile_5),
+                fill: fill_val,
+                borderColor: "red",
+                backgroundColor: "black"
             },
             {
                 label: "25th",
-                data : Object.values(percentile_25),
-                fill:fill_val,
+                data: Object.values(percentile_25),
+                fill: fill_val,
+                borderColor: "purple",
+                backgroundColor: "black"
             },
             {
                 label: "75th",
-                data : Object.values(percentile_75),
-                fill:fill_val,
+                data: Object.values(percentile_75),
+                fill: fill_val,
+                borderColor: "blue",
+                backgroundColor: "black"
             },
             {
                 label: "95th",
-                data : Object.values(percentile_95),
-                fill:fill_val,
+                data: Object.values(percentile_95),
+                fill: fill_val,
+                borderColor: "green"
             }
-    ],
-
+        ],
     }
 
-    return <Line data={chart_data}> </Line>
+    return (
+        <div>
+            <h1> {props.modcode} Chart </h1>
+            <Line data={chart_data}> </Line>
+        </div>
+    )
 
 }
 

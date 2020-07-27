@@ -28,7 +28,7 @@ function App() {
             modulecodes.map(x => {
               let mod_path = "/";
               mod_path = mod_path.concat(x);
-              return <Route exact path={mod_path}> <ModuleChart data={moduledata} modcode={x} /> </Route>
+              return <Route exact path={mod_path} key={x}> <ModuleChart data={moduledata} modcode={x} /> </Route>
             })
           }
 
