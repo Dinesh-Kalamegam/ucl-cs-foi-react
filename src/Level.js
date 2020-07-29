@@ -1,11 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './App.css'
+import BarChart from './BarChart'
 
 function Level(props) {
     const data2018 = props.data[3]
     return (
         <div className="level">
+            <BarChart arr={data2018.filter(x => x.Level === props.level)}></BarChart>
             {data2018.filter(x => x.Level === props.level).map(x => (
                 <div className="card" key={x["Module Code"]}>
                     <Link to={"/"+x["Module Code"]}>
