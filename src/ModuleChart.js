@@ -1,5 +1,6 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2'
+import './App.css'
 
 function ModuleChart(props) {
     const years = [2015, 2016, 2017, 2018]
@@ -8,17 +9,18 @@ function ModuleChart(props) {
     const percentile_25 = {}
     const percentile_75 = {}
     const percentile_95 = {}
+    let module_name = ""
 
     for (const [i, element] of props.data.entries()) {
         let modulecodes = element.map(x => x["Module Code"])
 
         if (modulecodes.includes(props.modcode)) {
-            // console.log(element)
             means[i] = element[modulecodes.indexOf(props.modcode)]['Mean']
             percentile_5[i] = element[modulecodes.indexOf(props.modcode)]['5th']
             percentile_25[i] = element[modulecodes.indexOf(props.modcode)]['25th']
             percentile_75[i] = element[modulecodes.indexOf(props.modcode)]['75th']
             percentile_95[i] = element[modulecodes.indexOf(props.modcode)]['95th']
+            module_name = element[modulecodes.indexOf(props.modcode)]["Module Name"]
         }
         else {
             means[i] = 0
@@ -73,9 +75,36 @@ function ModuleChart(props) {
     }
 
     return (
-        <div>
-            <h1> {props.modcode} Chart </h1>
-            <Line data={chart_data}> </Line>
+        <div className="module-chart-box">
+            <Line
+                data={chart_data}
+                options={{
+                    title: {
+                        display: true,
+                        text: [props.modcode + " : " + module_name, " Percentiles over 2015/6-2018/9"],
+                        fontSize: 25,
+                    },
+                    legend: { position: 'top' },
+                    responsive:true,
+                    scales: {
+                        xAxes: [{
+                          scaleLabel: {
+                            display: true,
+                            labelString: 'Year',
+                            fontSize:15
+                          }
+                        }],
+                        yAxes: [{
+                            scaleLabel: {
+                              display: true,
+                              labelString: 'Mark',
+                              fontSize:15
+                            }
+                          }]
+                      }   
+                }}
+            >
+            </Line>
         </div>
     )
 
