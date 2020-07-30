@@ -40,7 +40,6 @@ function ModuleChart(props) {
                 data: Object.values(means),
                 fill: fill_val,
                 borderColor: "black",
-                backgroundColor: "black"
 
             },
 
@@ -49,27 +48,24 @@ function ModuleChart(props) {
                 data: Object.values(percentile_5),
                 fill: fill_val,
                 borderColor: "red",
-                backgroundColor: "black"
             },
             {
                 label: "25th",
                 data: Object.values(percentile_25),
                 fill: fill_val,
                 borderColor: "purple",
-                backgroundColor: "black"
             },
             {
                 label: "75th",
                 data: Object.values(percentile_75),
                 fill: fill_val,
                 borderColor: "blue",
-                backgroundColor: "black"
             },
             {
                 label: "95th",
                 data: Object.values(percentile_95),
                 fill: fill_val,
-                borderColor: "green"
+                borderColor: "green",
             }
         ],
     }
@@ -85,24 +81,28 @@ function ModuleChart(props) {
                         fontSize: 25,
                     },
                     legend: { position: 'top' },
-                    responsive:true,
+                    responsive: true,
                     scales: {
                         xAxes: [{
-                          scaleLabel: {
-                            display: true,
-                            labelString: 'Year',
-                            fontSize:15
-                          }
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Year',
+                                fontSize: 15
+                            }
                         }],
                         yAxes: [{
                             scaleLabel: {
-                              display: true,
-                              labelString: 'Mark',
-                              fontSize:15
+                                display: true,
+                                labelString: 'Mark',
+                                fontSize: 15
                             }
-                          }]
-                      }   
-                }}
+                        }]
+                    },
+
+                }
+                }
+
+
             >
             </Line>
         </div>
