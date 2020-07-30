@@ -20,15 +20,15 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/"><Home data={moduledata} />  </Route>
-          <Route exact path="/level6"><Level level={6} data={moduledata} />  </Route>
-          <Route exact path="/level7"><Level level={7} data={moduledata} />  </Route>
+          <Route exact path={process.env.PUBLIC_URL+"/"}><Home data={moduledata} />  </Route>
+          <Route exact path={process.env.PUBLIC_URL+"/level6"}><Level level={6} data={moduledata} />  </Route>
+          <Route exact path={process.env.PUBLIC_URL+"/level7"}><Level level={7} data={moduledata} />  </Route>
 
           {
             modulecodes.map(x => {
               let mod_path = "/";
               mod_path = mod_path.concat(x);
-              return <Route exact path={mod_path} key={x}> <ModuleChart data={moduledata} modcode={x} /> </Route>
+              return <Route exact path={process.env.PUBLIC_URL+mod_path} key={x}> <ModuleChart data={moduledata} modcode={x} /> </Route>
             })
           }
 

@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 import './App.css'
 import BarChart from './BarChart'
 
-function compare(a,b) {
+function compare(a, b) {
     if (a.Mean < b.Mean) {
         return -1;
     }
     if (a.Mean > b.Mean) {
         return 1;
     }
-    return 0; 
+    return 0;
 }
 
 
@@ -21,7 +21,7 @@ function Level(props) {
             <BarChart arr={data2018.filter(x => x.Level === props.level).sort(compare)}></BarChart>
             {data2018.filter(x => x.Level === props.level).map(x => (
                 <div className="card" key={x["Module Code"]}>
-                    <Link to={"/" + x["Module Code"]}>
+                    <Link to={process.env.PUBLIC_URL + "/" + x["Module Code"]}>
 
                         <div className="card-header">
                             <h2> {x["Module Code"]} </h2>
