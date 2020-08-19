@@ -1,0 +1,50 @@
+2015-16 - Module Mean and Percentiles,,,,,,
+Module Code,Module Name,Mean,5th,25th,75th,95th
+COMP0119,Acquisition and Processing of 3D Geometry,73.87,55.8,65.5,84,87
+COMP0083,Advanced Topics in Machine Learning,74.06,55.3,67,83.5,88.7
+COMP0053,Affective Computing and Human-Robot Interaction,65.00,50,56,72,79.3
+MATH0053,Algebra 4: Groups and Rings,66.63,40,52.5,81.5,93
+MATH0035,Algebraic Number Theory,63.22,32.4,54.5,73.5,93.5
+COMP0058,Applied Cryptography,70.08,54.4,60,79,89
+COMP0081,Applied Machine Learning,78.86,61.85,74,85.75,90
+COMP0024,Artificial Intelligence and Neural Computing,72.89,50,66,82,91
+COMP0082,Bioinformatics,69.45,45,67.5,75.5,83.5
+COMP0123,Complex Networks and Web,67.77,54.1,62,74.75,80.95
+MATH0086,Computational and Simulation Methods,73.36,63,68.25,79.25,88
+COMP0017,Computational Complexity,58.83,29.1,48.5,71.5,88.9
+COMP0118,Computational Modelling for Biomedical Imaging,69.26,51.5,64.5,78,87
+COMP0028,Computational Photography and Capture,76.38,47,66.25,90.25,97
+COMP0027,Computer Graphics,65.14,23.2,56.25,77.75,86
+COMP0054,Computer Security I,61.35,45.85,53,68.25,77.05
+COMP0055,Computer Security II,69.19,48.6,59,79.5,90
+COMP0022,Database and Information Management Systems,73.89,53.05,67.25,82,89.95
+COMP0133,Distributed Systems and Security,61.41,41.8,53,71,77
+MATH0082,Evolutionary Games and Population Genetics,74.73,48,65,85,92
+COMP0105,Financial Institutions and Markets,61.47,51,57,66,70.35
+COMP0020,Functional Programming,70.01,38.8,63,82,90.6
+ECON0027,Game Theory,59.02,40,52,67,74.3
+COMP0080,Graphical Models,75.52,63.2,71,81,87.9
+COMP0026,Image Processing,56.62,22.6,47,72,80.3
+COMP0084,Information Retrieval and Data Mining,70.54,44.7,58,78,86.1
+COMP0021,Interaction Design,55.17,38,49,61,69.75
+STAT0007,Introduction to Applied Probability,62.74,40,49,73,87
+COMP0025,Introduction to Cryptography,65.08,39,58,76,84.5
+COMP0014,Inverse Problems in Imaging,58.64,40,48.5,69.5,76.5
+MATH0075,Lie Groups and Lie Algebras,58.73,25,45,75.5,77
+COMP0137,Machine Vision,68.02,44.35,60.25,77,81
+COMP0060,Malware,61.08,44.6,53.75,68.25,82
+MATH0030,Mathematical Ecology,66.74,41.3,50,83,92
+COMP0112,"Mathematical Methods, Algorithmics and Implementations",56.47,13,44.5,74,79.6
+COMP0023,Networked Systems,65.68,42.4,54,76,87.2
+COMP0044,Operational Risk Measurement for Financial Institutions,73.25,56.75,64.5,82.5,87.75
+COMP0056,People and Security,62.36,47.2,52.5,70.25,78
+COMP0061,Privacy Enhancing Technologies,65.44,59.1,61.25,70,73.15
+STAT0005,Probability and Inference,61.31,39.1,52,71,84.45
+MATH0088,Quantitative and Computational Finance,67.42,36,58,79,87.65
+COMP0101,Requirements Engineering and Software Architecture,62.74,47,57,68.5,82.9
+COMP0102,Software Abstractions and Systems Integration,74.69,68,72.5,78,80
+COMP0087,Statistical Natural Language Processing,81.88,67,77.5,89,96
+COMP0078,Supervised Learning,72.87,55.1,68,79.5,89.7
+COMP0104,Tools and Environments,62.36,49.5,53.75,69.5,77.25
+COMP0103,Validation and Verification,66.64,52.75,58.75,74,81.25
+COMP0113,Virtual Environments,72.19,52,67,81,87

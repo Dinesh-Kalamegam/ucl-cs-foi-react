@@ -1,0 +1,55 @@
+2018-19 - Module Mean and Percentiles,,,,,,
+Module Code,Module Name,Mean,5th,25th,75th,95th
+COMP0119,Acquisition and Processing of 3D Geometry,74.53,51.62,67.64,83.62,87.06
+COMP0083,Advanced Topics in Machine Learning,72.26,51.01,62.17,80.57,92.38
+COMP0053,Affective Computing and Human-Robot Interaction,64.97,48.78,57.38,72.33,78.03
+MATH0053,Algebra 4: Groups and Rings,62.17,35.02,48.98,75.30,91.00
+MATH0035,Algebraic Number Theory,66.22,40.46,55.50,78.45,90.09
+COMP0058,Applied Cryptography and Cryptanalysis,73.11,41.27,66.91,85.58,93.23
+COMP0081,Applied Machine Learning,64.96,30.48,54.81,78.26,89.37
+COMP0024,Artificial Intelligence and Neural Computing,67.48,37.21,59.60,80.00,90.73
+COMP0082,Bioinformatics,66.34,45.24,59.15,77.25,86.27
+COMP0123,Complex Networks and Web,74.14,49.57,65.95,83.88,90.29
+MATH0086,Computability and Complexity Theory,69.81,38.96,57.25,84.60,94.82
+COMP0017,Computational and Simulation Methods,71.33,54.83,63.80,80.75,85.39
+COMP0118,Computational Modelling for Biomedical Imaging,61.34,40.97,55.48,69.34,81.36
+COMP0028,Computational Photography and Capture,68.21,37.88,61.10,77.40,89.50
+COMP0027,Computer Graphics,71.23,41.69,60.65,83.64,93.95
+COMP0054,Computer Security I,72.65,51.05,63.75,83.50,92.50
+COMP0055,Computer Security II,76.40,52.40,70.95,87.41,93.50
+COMP0019,Computer Systems,57.15,25.10,47.19,70.87,81.39
+COMP0022,Database and Information Management Systems,65.73,45.10,55.00,75.95,80.00
+COMP0133,Distributed Systems and Security,57.74,17.86,44.83,73.53,84.55
+MATH0082,Evolutionary Games and Population Genetics,55.41,25.10,40.75,66.50,84.45
+COMP0105,Financial Institutions and Markets,70.48,49.07,63.93,78.58,85.40
+COMP0020,Functional Programming,92.52,73.30,86.00,100.00,100.00
+ECON0027,Game Theory,62.34,45.00,54.00,71.00,78.30
+COMP0080,Graphical Models,66.12,34.84,56.25,79.63,86.91
+COMP0026,Image Processing,69.94,37.62,60.13,84.35,90.79
+COMP0084,Information Retrieval and Data Mining,79.70,46.00,76.00,91.00,96.40
+COMP0021,Interaction Design,66.65,46.07,60.77,73.68,83.73
+STAT0007,Introduction to Applied Probability,58.41,32.51,48.84,69.75,83.40
+COMP0025,Introduction to Cryptography,55.97,17.15,44.85,71.60,84.45
+COMP0014,Introduction to Deep Learning,71.04,44.45,60.80,82.85,90.00
+COMP0090,Inverse Problems in Imaging,73.48,55.63,66.25,80.38,91.20
+MATH0075,Lie Groups and Lie Algebras,63.06,38.10,55.48,72.78,78.85
+COMP0142,Machine Learning for Domain Specialists,67.99,48.48,60.74,75.68,87.27
+COMP0137,Machine Vision,65.61,33.29,55.31,81.57,89.25
+COMP0060,Malware,57.32,27.35,45.58,71.23,77.57
+MATH0030,Mathematical Ecology,59.78,39.25,46.00,72.00,95.00
+COMP0112,"Mathematical Methods, Algorithmics and Implementations",73.40,51.89,65.40,82.53,91.95
+COMP00124,Multi-agent Artificial Intelligence,82.26,71.00,77.50,86.25,93.70
+COMP0023,Networked Systems,54.41,18.10,44.15,68.73,80.14
+COMP0044,Operational Risk Measurement for Financial Institutions,64.55,52.62,59.57,68.67,81.89
+COMP0056,People and Security,67.83,51.55,61.65,72.88,80.38
+COMP0061,Privacy Enhancing Technologies,71.09,42.74,67.20,80.50,89.68
+STAT0005,Probability and Inference,60.67,34.97,51.37,70.19,83.40
+MATH0088,Quantitative and Computational Finance,69.64,53.28,58.90,81.95,87.53
+COMP0089,Reinforcement Learning,73.33,48.69,66.57,82.63,90.73
+COMP0101,Requirements Engineering and Software Architecture,54.34,30.25,45.95,63.95,76.75
+COMP0102,Software Abstractions and Systems Integration,70.12,60.15,67.00,73.50,77.93
+COMP0087,Statistical Natural Language Processing,82.64,72.30,78.20,87.00,92.70
+COMP0078,Supervised Learning,57.12,17.30,47.75,69.50,84.35
+COMP0104,Tools and Environments,57.21,24.33,45.35,70.30,81.90
+COMP0103,Validation and Verification,55.35,15.35,47.30,66.95,76.35
+COMP0113,Virtual Environments,73.12,65.12,69.52,77.02,83.78

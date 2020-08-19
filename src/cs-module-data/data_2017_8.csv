@@ -1,0 +1,52 @@
+2017-18 - Module Mean and Percentiles,,,,,,
+Module Code,Module Name,Mean,5th,25th,75th,95th
+COMP0119,Acquisition and Processing of 3D Geometry,72.32,62,68,76,83
+COMP0083,Advanced Topics in Machine Learning,60.13,45.05,50,70,71.3
+COMP0053,Affective Computing and Human-Robot Interaction,65.55,54,60.5,71.5,78.7
+MATH0053,Algebra 4: Groups and Rings,61.04,34,49.5,74,88.6
+MATH0035,Algebraic Number Theory,71.54,42.1,61.5,86.5,97
+COMP0058,Applied Cryptography,67.00,18,66.75,80.5,88.75
+COMP0081,Applied Machine Learning,64.86,43.9,54,75,90
+COMP0024,Artificial Intelligence and Neural Computing,62.21,36.3,50.75,75,86.85
+COMP0082,Bioinformatics,75.78,54.2,71.5,85,87
+COMP0123,Complex Networks and Web,71.52,50.6,63,79,86.8
+MATH0086,Computational and Simulation Methods,70.48,50,61,81,86.8
+COMP0017,Computational Complexity,63.07,38.05,52,75,89.95
+COMP0118,Computational Modelling for Biomedical Imaging,66.76,50.6,57,74,89.4
+COMP0028,Computational Photography and Capture,70.90,49.45,62,82,88.55
+COMP0027,Computer Graphics,80.37,58.9,73.25,89,95.55
+COMP0054,Computer Security I,63.46,41.7,54,74.75,82.55
+COMP0055,Computer Security II,71.24,52.1,66.25,80,88.85
+COMP0019,Computer Systems,61.28,23.9,49,75,86.05
+COMP0022,Database and Information Management Systems,61.95,44.55,54,70,77
+COMP0133,Distributed Systems and Security,63.45,37.5,53,74,80.5
+MATH0082,Evolutionary Games and Population Genetics,55.63,43.1,49.25,58.5,73.95
+COMP0105,Financial Institutions and Markets,65.86,56,62,70.75,76
+COMP0020,Functional Programming,66.26,42,55,77.5,95.55
+ECON0027,Game Theory,60.02,40,52,68,80.95
+COMP0080,Graphical Models,67.76,46.75,57.75,78,88
+COMP0026,Image Processing,66.50,44.35,58,76,90.3
+COMP0084,Information Retrieval and Data Mining,59.89,44.5,51,66,75
+COMP0021,Interaction Design,68.64,51,63,76,84
+STAT0007,Introduction to Applied Probability,63.42,40,50,77,87
+COMP0025,Introduction to Cryptography,57.97,28.35,50,70,78.9
+COMP0014,Introduction to Deep Learning,72.57,56,66,80,87.9
+COMP0090,Inverse Problems in Imaging,69.79,54.7,60.75,78.25,85.6
+MATH0075,Lie Groups and Lie Algebras (Masters Level),61.17,51.5,54.5,66.5,74.25
+COMP0137,Machine Vision,67.60,46,58.5,77,87
+COMP0060,Malware,60.35,43,56.5,68.75,75.5
+MATH0030,Mathematical Ecology,59.17,35,47.5,70,86.65
+COMP0112,"Mathematical Methods, Algorithmics and Implementations",69.42,48.2,59,82,88.9
+COMP0023,Networked Systems,63.03,40,54.5,73,83.9
+COMP0044,Operational Risk Measurement for Financial Institutions,70.13,59.9,65,75,81
+COMP0056,People and Security,61.78,54,56,67,71
+COMP0061,Privacy Enhancing Technologies,61.59,45.25,55.5,68,74
+STAT0005,Probability and Inference,64.58,40,50,77,89
+MATH0088,Quantitative and Computational Finance,63.13,38.75,52,74,81.75
+COMP0101,Requirements Engineering and Software Architecture,63.03,50,57,66,83
+COMP0102,Software Abstractions and Systems Integration,73.15,64.2,68,78.5,82.7
+COMP0087,Statistical Natural Language Processing,78.89,65,74,84,89
+COMP0078,Supervised Learning,66.02,40,51,81,92
+COMP0104,Tools and Environments,62.80,37.9,53.5,76.25,83
+COMP0103,Validation and Verification,59.18,43.7,50,66.75,80.3
+COMP0113,Virtual Environments,66.80,60.8,63,68.5,79.3
