@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af4159666087b64f84fa5090481595fb",
+    "revision": "5be65b5ae4f7238e06c6426ab31efaa6",
     "url": "/ucl-cs-foi-react/index.html"
   },
   {
-    "revision": "9ba656e7613a170ab702",
+    "revision": "c942e41e087ba3d7498a",
     "url": "/ucl-cs-foi-react/static/css/main.3e0fa976.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ucl-cs-foi-react/static/js/2.32b6162c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ba656e7613a170ab702",
-    "url": "/ucl-cs-foi-react/static/js/main.5475bded.chunk.js"
+    "revision": "c942e41e087ba3d7498a",
+    "url": "/ucl-cs-foi-react/static/js/main.e3dcecea.chunk.js"
   },
   {
     "revision": "cad20ba0e00b0d407e55",
