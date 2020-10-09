@@ -7,11 +7,12 @@ function BarChart(props){
             labels: props.arr.map(x => x["Module Code"]),
             datasets: [
                 {
-                    label: "Mean Mark",
+                    label: props.text,
                     data: props.arr.map(x => x["Mean"]),
                     backgroundColor:"skyblue"
                 }
             ]
+            
         }
 
         

@@ -16,9 +16,10 @@ function compare(a, b) {
 
 function Level(props) {
     const data2018 = props.data[3]
+    const bar_text = "Comparison of 2018/9 mean marks for Level " + props.level.toString()
     return (
         <div className="level">
-            <BarChart arr={data2018.filter(x => x.Level === props.level).sort(compare)}></BarChart>
+            <BarChart text ={bar_text} arr={data2018.filter(x => x.Level === props.level).sort(compare)}></BarChart>
             {data2018.filter(x => x.Level === props.level).map(x => (
                 <div className="card" key={x["Module Code"]}>
                     <Link to={process.env.PUBLIC_URL + "/" + x["Module Code"]}>

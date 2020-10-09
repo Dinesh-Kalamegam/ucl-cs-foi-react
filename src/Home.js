@@ -7,16 +7,10 @@ function Home(props) {
 
     return (
         <div>
-            <h1> Home </h1>
-            <BarChart arr={data2015} > </BarChart>    
-            <BarChart arr={data2016} > </BarChart>  
-            <BarChart arr={data2017}> </BarChart>  
-            <BarChart arr={data2018} > </BarChart>  
-
-            {/* {data2018.map(x =><ModuleChart data={props.data} modcode={x['Module Code']}></ModuleChart> )} */}
-            {/* <ModuleChart data={props.data} modcode="COMP0019"></ModuleChart> */}
-        
-            {/* console.log("Hello") */}
+            <BarChart text="Comparison of means for year 2015/6" arr={data2015} > </BarChart>    
+            <BarChart text="Comparison of means for year 2016/7" arr={data2016} > </BarChart>  
+            <BarChart text="Comparison of means for year 2017/8" arr={data2017}> </BarChart>  
+            <BarChart text="Comparison of means for year 2018/9" arr={data2018} > </BarChart>  
 
         </div>
     )
