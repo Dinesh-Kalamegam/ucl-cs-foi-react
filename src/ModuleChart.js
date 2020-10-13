@@ -1,6 +1,7 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2'
 import './App.css'
+import './ModuleChart.css'
 
 function ModuleChart(props) {
     const years = [2015, 2016, 2017, 2018]
@@ -75,12 +76,13 @@ function ModuleChart(props) {
             <Line
                 data={chart_data}
                 options={{
+                    maintainAspectRatio:false,
                     title: {
                         display: true,
                         text: [props.modcode + " : " + module_name, " Percentiles over 2015/6-2018/9"],
-                        fontSize: 25,
+                        fontSize: 15,
                     },
-                    legend: { position: 'top' },
+                    legend: { position: 'bottom' },
                     responsive: true,
                     scales: {
                         xAxes: [{
