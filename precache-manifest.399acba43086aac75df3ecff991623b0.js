@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07c4c7cfab237fc4e08d86a0f9a088c7",
+    "revision": "d39b1026060c28a14af29ab671398def",
     "url": "/ucl-cs-foi-react/index.html"
   },
   {
-    "revision": "98db5a71193c2cc1323d",
-    "url": "/ucl-cs-foi-react/static/css/main.d22014fe.chunk.css"
+    "revision": "f8e63f08a99f9a00f0d4",
+    "url": "/ucl-cs-foi-react/static/css/main.c79d50f5.chunk.css"
   },
   {
-    "revision": "1ffd0a168d189b582b13",
-    "url": "/ucl-cs-foi-react/static/js/2.bef4dd00.chunk.js"
+    "revision": "aa47d4a8aa94ee527445",
+    "url": "/ucl-cs-foi-react/static/js/2.9cc79094.chunk.js"
   },
   {
     "revision": "44e39e61fb6a0450f7c8014318774752",
-    "url": "/ucl-cs-foi-react/static/js/2.bef4dd00.chunk.js.LICENSE.txt"
+    "url": "/ucl-cs-foi-react/static/js/2.9cc79094.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98db5a71193c2cc1323d",
-    "url": "/ucl-cs-foi-react/static/js/main.1f9e7f25.chunk.js"
+    "revision": "f8e63f08a99f9a00f0d4",
+    "url": "/ucl-cs-foi-react/static/js/main.8e77e760.chunk.js"
   },
   {
     "revision": "cad20ba0e00b0d407e55",
