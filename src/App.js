@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <Navbar2/>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL+"/"}><Home data={moduledata} />  </Route>
           <Route exact path={process.env.PUBLIC_URL+"/level6"}><Level level={6} data={moduledata} />  </Route>
