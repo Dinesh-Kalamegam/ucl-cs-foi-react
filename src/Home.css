@@ -1,4 +1,36 @@
 .home{
     display: flex;
-    
+    flex-direction: column;
+}
+
+.image-container{
+    width: 1fr;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.image-container-img{
+    width: 50%;
+}
+
+@media screen and (max-width:768px){
+    .image-container-img{
+        width: 100%;
+    }
+}
+.text-container{
+    width: 1fr;
+    padding: 2em;
+}
+
+.text-container>h2{
+    margin: 1em 0
+}
+.text-container> p{
+    margin-top: 1em;
+    /* margin-bottom: 1em; */
+}
+.text-container>ul{
+    padding-left: 2em;
 }

@@ -13,22 +13,26 @@ import { withRouter } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow:1 
+    width: "100%",
+    display: "flex",
   },
+
   menuButton: {
     marginRight: theme.spacing(2)
   },
+
   title: {
     [theme.breakpoints.down("xs")]: {
-      flexGrow: 1
+      flexGrow: 3
     }
+
   },
   headerOptions: {
     display: "flex",
-    flex: 2,
-    justifyContent: "space-evenly",
-    marginLeft:"50%"
+    marginLeft:"auto",
+    
   }
+
 }));
 
 const Header = props => {
@@ -114,6 +118,7 @@ const Header = props => {
               <div className={classes.headerOptions}>
                 <Button
                   variant="contained"
+                  color="primary"
                   onClick={() => handleButtonClick(process.env.PUBLIC_URL + `/`)}
                 >
                   HOME
@@ -121,6 +126,7 @@ const Header = props => {
 
                 <Button
                   variant="contained"
+                  color="primary"
                   onClick={() => handleButtonClick(process.env.PUBLIC_URL + `/level6`)}
                 >
                   Level6
@@ -128,6 +134,7 @@ const Header = props => {
 
                 <Button
                   variant="contained"
+                  color="primary"
                   onClick={() => handleButtonClick(process.env.PUBLIC_URL + `/level7`)}
                 >
                   Level7

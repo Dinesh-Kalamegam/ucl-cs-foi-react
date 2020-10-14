@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-import Navbar from './NavBar'
+// import Navbar from './NavBar'
 import Navbar2 from './NavBar2'
 import Home from './Home'
 import Level from './Level'
