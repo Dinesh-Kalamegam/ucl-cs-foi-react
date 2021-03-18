@@ -7,12 +7,20 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 function Home() {
     return (
         <div className="home">
-            <div className="image-container">
+            <div className="hero">
                 <img src={informed} alt="" className="image-container-img"></img>
+                <div className="hero-left">
+                    <h1 className="hero-text">Pick the right modules</h1>
+                    <h3 className="hero-subtext"> UCL CS Module Data available in one place</h3>
+                    <button className="home-button">Level 6 Modules </button>
+                    <button className="home-button">Level 7 Modules </button>
+                    <button className="home-button">See GitHub Source Code </button>
+                    <button className="home-button">See Source of Data </button>
+                </div>
             </div>
 
-            <div className="text-container">
-                <h1>Welcome!</h1>
+            {/* <div className="text-container">
+                
                 <h2>Introduction</h2>
                 <p>When choosing your modules one important factor is how are the marks like for a particular module. If you are trying to optimise your grade then picking a low average mark module is not going to be in your best interest. So this website helps you make an informed decision.</p>
 
@@ -33,7 +41,7 @@ function Home() {
                     <li>Original data comes from my FOI from 2019 which can be found   <ExternalLink href="https://www.whatdotheyknow.com/request/ucl_meng_computer_science_module_2#incoming-1463166"> here</ExternalLink></li>
                     <li>I manually converted the files into csvs and added the module codes in these can be found alongside all the code for this website and JSON files of this data at this github repo <ExternalLink href="https://github.com/Dinesh-Kalamegam/ucl-cs-foi-react"> <GitHubIcon></GitHubIcon></ExternalLink> </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
 
     )

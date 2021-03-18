@@ -10,11 +10,13 @@ import Menu from "@material-ui/core/Menu";
 import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { withRouter } from "react-router-dom";
+import { blue } from "@material-ui/core/colors";
 
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100%",
     display: "flex",
+    color:blue,
   },
 
   menuButton: {
