@@ -12,10 +12,12 @@ function Home() {
                 <div className="hero-left">
                     <h1 className="hero-text">Pick the right modules</h1>
                     <h3 className="hero-subtext"> UCL CS Module Data available in one place</h3>
-                    <button className="home-button">Level 6 Modules </button>
-                    <button className="home-button">Level 7 Modules </button>
-                    <button className="home-button">See GitHub Source Code </button>
-                    <button className="home-button">See Source of Data </button>
+                    <div className="button-row">
+                        <a className="home-button focus-button" href={process.env.PUBLIC_URL+"/level6"}>Level 6 Modules </a>
+                        <a className="home-button focus-button" href={process.env.PUBLIC_URL+"/level7"}>Level 7 Modules </a>
+                        <a className="home-button" href="https://github.com/Dinesh-Kalamegam/ucl-cs-foi-react">See GitHub Repo  </a>
+                        <a className="home-button" href="https://www.whatdotheyknow.com/request/ucl_meng_computer_science_module_2#incoming-1463166">See Source of Data </a>
+                    </div>
                 </div>
             </div>
 
