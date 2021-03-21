@@ -18,9 +18,16 @@ function BarChart(props) {
         <HorizontalBar data={data} className="barchart"
         options={{
             // maintainAspectRatio:false,
+            responsive:true,
             height:"20%",
-            title:{
-                fontColor:"white",
+            title: {
+                display: true,
+                text: props.text,
+                fontSize: 18,
+                fontColor:"white"
+            },
+            legend:{
+                display:false
             },
             scales: {
                 xAxes: [{

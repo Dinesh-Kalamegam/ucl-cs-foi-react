@@ -92,8 +92,10 @@
 }
 
 .home-button:hover{
-    background-color: #4E5EBA;
+    /* background-color: #4E5EBA; */
     border:solid 1px #05BCE6;
+
+    filter:invert(1)
 }
 
 .focus-button{

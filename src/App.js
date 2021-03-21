@@ -29,7 +29,7 @@ function App() {
             modulecodes.map(x => {
               let mod_path = "/";
               mod_path = mod_path.concat(x);
-              return <Route exact path={process.env.PUBLIC_URL+mod_path} key={x}> <ModuleChart data={moduledata} modcode={x} /> </Route>
+              return <Route exact path={process.env.PUBLIC_URL+mod_path} key={x}> <ModuleChart className="module_chart" data={moduledata} modcode={x} /> </Route>
             })
           }
 

@@ -1,4 +1,59 @@
 .module-chart-box{
-    height: 50vh;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+  margin: 5vw auto;
+}
+
+@media screen and (max-width:600px){
+  .module-chart-box{
+    height:80vw;
   }
+}
+
+.chart-info-area{
+  margin-top: calc(150px + 5vh);
+}
+.chart-title{
+  font-size: max(16px,2vw);
+  text-align: center;
+  color:white;
+}
+
+.legend{
+  margin-top:1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.legend-item{
+  padding:1em;
+  color: white;
+  font-size: max(12px,1vw);
+  font-weight: bold;
+  border: solid 1px white;
+}
+
+.perc_5th{
+  background-color: #7E0000;
+}
+.perc_25th{
+  background-color: purple;
+}
+.perc_mean{
+  background-color: black;
+}
+
+.perc_75th{
+  background-color: blue;
+}
+.perc_95th{
+  background-color: green;
+}
+
+
+
