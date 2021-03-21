@@ -1,13 +1,8 @@
-.card {
-    /* Set up Border */
+/* .card {
     border: 1px solid #EF9A9A;    
-    /* Slightly Curve edges */
     border-radius: 4px;          
-    /* Fixes the corners */
     overflow: hidden;             
-    /* Children use Flexbox */
     display: flex;                
-    /* Rotate Axis */
     flex-direction: column;       
     text-align: center;
   }
@@ -26,15 +21,48 @@
 }
 
 .card-main {
-  display: flex;              /* Children use Flexbox */
-  flex-direction: column;     /* Rotate Axis to Vertical */
-  justify-content: center;    /* Group Children in Center */
-  align-items: center;        /* Group Children in Center (+axis) */
-  padding: 15px 0;            /* Add padding to the top/bottom */
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;        
+  padding: 15px 0;            
+  background-color: white;
+  height:auto;
 }
 
 .main-description {
   color: #3844f1;
   font-size: 16px;
   text-align: center;
+} */
+
+.card{
+  /* background-color: white; */
+  background-color: #3F51B5;
+  border: solid 1px black; 
+  text-align: center;
+  width: 100%;
 }
+
+.card:hover{
+  filter:invert(1)
+}
+
+.card-header{
+  color:#FF6584;
+  border-bottom: solid 1px white;
+  padding: 0.5em;
+  /* font-size:max(1rem,1vw) */
+  font-size:14px;
+}
+
+.card-main{
+  color:white;
+  padding: 1em;
+  /* font-size:max(0.8rem,0.8vw) */
+  font-size:12px;
+}
+.link{
+  text-decoration: none;
+}
+

@@ -1,8 +1,8 @@
 import React, { } from 'react'
-import { ExternalLink } from 'react-external-link'
+// import { ExternalLink } from 'react-external-link'
 import informed from './images/undraw_informed_decision_p2lh.svg'
 import './Home.css'
-import GitHubIcon from '@material-ui/icons/GitHub';
+// import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Home() {
     return (
