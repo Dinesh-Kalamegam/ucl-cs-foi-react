@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d8937ca96bd153e40ac422b0c99d177",
+    "revision": "ecbc6bd5f5abcbf65158ee32c4b0ca08",
     "url": "/ucl-cs-foi-react/index.html"
   },
   {
-    "revision": "0d6aad14eb642e4b749e",
-    "url": "/ucl-cs-foi-react/static/css/main.0fface35.chunk.css"
+    "revision": "62b1e95f99de4658cb96",
+    "url": "/ucl-cs-foi-react/static/css/main.17c7a0e8.chunk.css"
   },
   {
-    "revision": "f4f1b8ea27412574f5ee",
-    "url": "/ucl-cs-foi-react/static/js/2.eb1fa1e2.chunk.js"
+    "revision": "38fce6e101ca43008e0a",
+    "url": "/ucl-cs-foi-react/static/js/2.2d570d77.chunk.js"
   },
   {
     "revision": "44e39e61fb6a0450f7c8014318774752",
-    "url": "/ucl-cs-foi-react/static/js/2.eb1fa1e2.chunk.js.LICENSE.txt"
+    "url": "/ucl-cs-foi-react/static/js/2.2d570d77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d6aad14eb642e4b749e",
-    "url": "/ucl-cs-foi-react/static/js/main.b8442710.chunk.js"
+    "revision": "62b1e95f99de4658cb96",
+    "url": "/ucl-cs-foi-react/static/js/main.7648e5a6.chunk.js"
   },
   {
     "revision": "cad20ba0e00b0d407e55",
