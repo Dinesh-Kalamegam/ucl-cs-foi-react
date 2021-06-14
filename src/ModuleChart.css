@@ -21,21 +21,22 @@
   font-size: max(16px,2vw);
   text-align: center;
   color:white;
+  margin-bottom: 1em;
 }
 
 .legend{
-  margin-top:1em;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1em 0;
 }
 
 .legend-item{
-  padding:1em;
+  padding:0.4em;
   color: black;
   font-size: max(12px,1vw);
-  font-weight: 700;
   border: solid 1px black;
+  text-align: center;
 }
 
 .perc_5th{

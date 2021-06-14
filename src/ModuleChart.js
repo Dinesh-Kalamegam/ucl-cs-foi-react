@@ -74,35 +74,24 @@ function ModuleChart(props) {
     return (
         <div className="module-chart-box">
             <div className="chart-info-area">
-                <h1 className="chart-title">{props.modcode + " : " + module_name} <br></br> {"Percentiles over 2015/6-2018/9"} </h1>
-                <div className="legend">
-                    <div className="legend-item perc_5th">5th Percentile</div>
-                    <div className="legend-item perc_25th">25th Percentile</div>
-                    <div className="legend-item perc_mean">Mean Mark</div>
-                    <div className="legend-item perc_75th">75th Percentile</div>
-                    <div className="legend-item perc_95th">95th Percentile</div>
-                </div>
+                <h1 className="chart-title">
+                    {props.modcode + " : " + module_name} <br></br> {"Percentiles over 2015/6-2018/9"} 
+                </h1>
             </div>
 
             <Line
                 data={chart_data}
                 options={{
-                    maintainAspectRatio:false,
-                    title: {
+                    maintainAspectRatio: false,
+                    legend: {
                         display: true,
-                        // text: [props.modcode + " : " + module_name, " Percentiles over 2015/6-2018/9"],
-                        fontSize: 20,
-                        fontColor:"white"
-                    },
-                    legend: { 
-                        display:false,
-                        position: 'bottom' , 
-                        labels:{
-                            // fontSize:14,
-                            fontColor:"white",
-                            padding:20,
+                        position: 'right',
+                        labels: {
+                            fontSize:12,
+                            fontColor: "white",
+                            padding: 30,
                         },
-                        
+
 
                     },
                     responsive: true,
@@ -112,10 +101,10 @@ function ModuleChart(props) {
                                 display: true,
                                 labelString: 'Year',
                                 fontSize: 15,
-                                fontColor:"white",
+                                fontColor: "white",
                             },
-                            ticks:{
-                                fontColor:"white"
+                            ticks: {
+                                fontColor: "white"
                             }
                         }],
                         yAxes: [{
@@ -123,10 +112,10 @@ function ModuleChart(props) {
                                 display: true,
                                 labelString: 'Mark',
                                 fontSize: 15,
-                                fontColor:"white"
+                                fontColor: "white"
                             },
-                            ticks:{
-                                fontColor:"white"
+                            ticks: {
+                                fontColor: "white"
                             }
                         }]
                     },
@@ -137,6 +126,14 @@ function ModuleChart(props) {
 
             >
             </Line>
+
+            {/* <div className="legend">
+                    <div className="legend-item perc_5th">5th Percentile</div>
+                    <div className="legend-item perc_25th">25th Percentile</div>
+                    <div className="legend-item perc_mean">Mean Mark</div>
+                    <div className="legend-item perc_75th">75th Percentile</div>
+                    <div className="legend-item perc_95th">95th Percentile</div>
+                </div> */}
         </div>
     )
 
