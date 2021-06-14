@@ -34,7 +34,7 @@ function Level(props) {
             {width > breakpoint ? <BarChart className="bar-level" text={bar_text} arr={data2018.filter(x => x.Level === props.level).sort(compare)}></BarChart> : <React.Fragment></React.Fragment>}
             <div className="level">
                 {data2018.filter(x => x.Level === props.level).map(x => (
-                    <Card module_code={x["Module Code"]} module_name={x["Module Name"]} />
+                    <Card key={x["Module Code"]} module_code={x["Module Code"]} module_name={x["Module Name"]} />
                 ))}
             </div>
         </div>

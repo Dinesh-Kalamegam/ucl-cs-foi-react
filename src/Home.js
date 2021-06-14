@@ -16,8 +16,8 @@ function Home() {
                     <div className="button-row">
                         {/* <a className="home-button focus-button" href={process.env.PUBLIC_URL+"/level6"}>Level 6 Modules </a> */}
                         {/* <a className="home-button focus-button" href={process.env.PUBLIC_URL+"/level7"}>Level 7 Modules </a> */}
-                        <Link className="home-button focus-button" to={process.env.PUBLIC_URL+"/level6"}><a >Level 6 Modules </a> </Link>
-                        <Link className="home-button focus-button" to={process.env.PUBLIC_URL+"/level7"}><a >Level 7 Modules </a> </Link>
+                        <Link className="home-button focus-button" to={process.env.PUBLIC_URL+"/level6"}>Level 6 Modules </Link>
+                        <Link className="home-button focus-button" to={process.env.PUBLIC_URL+"/level7"}>Level 7 Modules  </Link>
                         <a className="home-button" href="https://github.com/Dinesh-Kalamegam/ucl-cs-foi-react">See GitHub Repo  </a>
                         <a className="home-button" href="https://www.whatdotheyknow.com/request/ucl_meng_computer_science_module_2#incoming-1463166">See Source of Data </a>
                     </div>

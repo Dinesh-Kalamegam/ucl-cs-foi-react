@@ -1,47 +1,10 @@
-/* .card {
-    border: 1px solid #EF9A9A;    
-    border-radius: 4px;          
-    overflow: hidden;             
-    display: flex;                
-    flex-direction: column;       
-    text-align: center;
-  }
-  
-.link{
-    text-decoration: none;
-}
-.card-header {
-  color: #D32F2F;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  border-bottom: 1px solid #EF9A9A;
-  background-color: #d0f8ff;
-  padding: 5px 10px;
-}
-
-.card-main {
-  display: flex;              
-  flex-direction: column;     
-  justify-content: center;    
-  align-items: center;        
-  padding: 15px 0;            
-  background-color: white;
-  height:auto;
-}
-
-.main-description {
-  color: #3844f1;
-  font-size: 16px;
-  text-align: center;
-} */
-
 .card{
   /* background-color: white; */
   background-color: #3F51B5;
   border: solid 1px black; 
   text-align: center;
   width: 100%;
+  height: 8em;
 }
 
 .card:hover{

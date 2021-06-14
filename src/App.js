@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-// import Navbar from './NavBar'
-import Navbar2 from './NavBar2'
+import Navbar from './NavBar'
 import Home from './Home'
 import Level from './Level'
 import ModuleChart from './ModuleChart';
@@ -19,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar2/>
+        <Navbar/>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL+"/"}><Home data={moduledata} />  </Route>
           <Route exact path={process.env.PUBLIC_URL+"/level6"}><Level level={6} data={moduledata} />  </Route>
@@ -29,7 +28,7 @@ function App() {
             modulecodes.map(x => {
               let mod_path = "/";
               mod_path = mod_path.concat(x);
-              return <Route exact path={process.env.PUBLIC_URL+mod_path} key={x}> <ModuleChart className="module_chart" data={moduledata} modcode={x} /> </Route>
+              return (<Route exact path={process.env.PUBLIC_URL+mod_path} key={x}> <ModuleChart className="module_chart" data={moduledata} modcode={x} /> </Route>)
             })
           }
 
