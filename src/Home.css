@@ -100,7 +100,8 @@
 
 .focus-button{
     /* background-color: #05BCE6; */
-    background-color: hsl(348, 100%, 70%);
+    /* background-color: hsl(348, 100%, 70%); */
+    background-color: hsl(348, 100%, 80%);
     color: black;
     font-weight: 500;
 }

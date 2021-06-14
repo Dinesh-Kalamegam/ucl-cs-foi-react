@@ -12,7 +12,8 @@
 }
 
 .card-header{
-  color:#FF6584;
+  /* color:#FF6584; */
+  color:hsl(348, 100%, 80%);
   border-bottom: solid 1px white;
   padding: 0.5em;
   /* font-size:max(1rem,1vw) */

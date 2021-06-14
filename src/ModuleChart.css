@@ -32,28 +32,25 @@
 
 .legend-item{
   padding:1em;
-  color: white;
+  color: black;
   font-size: max(12px,1vw);
-  font-weight: bold;
-  border: solid 1px white;
+  font-weight: 700;
+  border: solid 1px black;
 }
 
 .perc_5th{
-  background-color: #7E0000;
+  background-color: #ff99ad;
 }
 .perc_25th{
-  background-color: purple;
+  background-color: #f9fc55;
 }
 .perc_mean{
-  background-color: black;
+  background-color: white;
 }
 
 .perc_75th{
-  background-color: blue;
+  background-color: #87e7fd;
 }
 .perc_95th{
-  background-color: green;
+  background-color: #8afd86;
 }
-
-
-

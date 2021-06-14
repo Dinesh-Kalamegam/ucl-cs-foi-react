@@ -40,7 +40,7 @@ function ModuleChart(props) {
                 label: "Mean",
                 data: Object.values(means),
                 fill: fill_val,
-                borderColor: "black",
+                borderColor: "white",
 
             },
 
@@ -48,25 +48,25 @@ function ModuleChart(props) {
                 label: "5th",
                 data: Object.values(percentile_5),
                 fill: fill_val,
-                borderColor: "#7E0000",
+                borderColor: "#ff99ad",
             },
             {
                 label: "25th",
                 data: Object.values(percentile_25),
                 fill: fill_val,
-                borderColor: "purple",
+                borderColor: "#f9fc55",
             },
             {
                 label: "75th",
                 data: Object.values(percentile_75),
                 fill: fill_val,
-                borderColor: "blue",
+                borderColor: "#87e7fd",
             },
             {
                 label: "95th",
                 data: Object.values(percentile_95),
                 fill: fill_val,
-                borderColor: "green",
+                borderColor: "#8afd86",
             }
         ],
     }
