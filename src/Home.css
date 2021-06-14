@@ -99,7 +99,10 @@
 }
 
 .focus-button{
-    background-color:#09a4c7;
+    /* background-color: #05BCE6; */
+    background-color: hsl(348, 100%, 70%);
+    color: black;
+    font-weight: 500;
 }
     
 @media screen and (max-width:960px){
