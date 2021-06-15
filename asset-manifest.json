@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ucl-cs-foi-react/static/css/main.c4db8d56.chunk.css",
-    "main.js": "/ucl-cs-foi-react/static/js/main.be558da3.chunk.js",
-    "main.js.map": "/ucl-cs-foi-react/static/js/main.be558da3.chunk.js.map",
+    "main.js": "/ucl-cs-foi-react/static/js/main.db1409ac.chunk.js",
+    "main.js.map": "/ucl-cs-foi-react/static/js/main.db1409ac.chunk.js.map",
     "runtime-main.js": "/ucl-cs-foi-react/static/js/runtime-main.c12bf38f.js",
     "runtime-main.js.map": "/ucl-cs-foi-react/static/js/runtime-main.c12bf38f.js.map",
-    "static/js/2.d186627d.chunk.js": "/ucl-cs-foi-react/static/js/2.d186627d.chunk.js",
-    "static/js/2.d186627d.chunk.js.map": "/ucl-cs-foi-react/static/js/2.d186627d.chunk.js.map",
+    "static/js/2.2c66c222.chunk.js": "/ucl-cs-foi-react/static/js/2.2c66c222.chunk.js",
+    "static/js/2.2c66c222.chunk.js.map": "/ucl-cs-foi-react/static/js/2.2c66c222.chunk.js.map",
     "index.html": "/ucl-cs-foi-react/index.html",
-    "precache-manifest.e64f25c91e1b6509b67a0afbdddf99a2.js": "/ucl-cs-foi-react/precache-manifest.e64f25c91e1b6509b67a0afbdddf99a2.js",
+    "precache-manifest.e28db90a2fa14f9097f94b1936fa4421.js": "/ucl-cs-foi-react/precache-manifest.e28db90a2fa14f9097f94b1936fa4421.js",
     "service-worker.js": "/ucl-cs-foi-react/service-worker.js",
     "static/css/main.c4db8d56.chunk.css.map": "/ucl-cs-foi-react/static/css/main.c4db8d56.chunk.css.map",
-    "static/js/2.d186627d.chunk.js.LICENSE.txt": "/ucl-cs-foi-react/static/js/2.d186627d.chunk.js.LICENSE.txt",
+    "static/js/2.2c66c222.chunk.js.LICENSE.txt": "/ucl-cs-foi-react/static/js/2.2c66c222.chunk.js.LICENSE.txt",
     "static/media/undraw_informed_decision_p2lh.svg": "/ucl-cs-foi-react/static/media/undraw_informed_decision_p2lh.f253a68b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c12bf38f.js",
-    "static/js/2.d186627d.chunk.js",
+    "static/js/2.2c66c222.chunk.js",
     "static/css/main.c4db8d56.chunk.css",
-    "static/js/main.be558da3.chunk.js"
+    "static/js/main.db1409ac.chunk.js"
   ]
 }
