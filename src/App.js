@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-import Navbar from './NavBar'
-import Home from './Home'
-import Level from './Level'
-import ModuleChart from './ModuleChart';
+import Navbar from './components/NavBar'
+import Home from './components/Home'
+import Level from './components/Level'
+import ModuleChart from './components/ModuleChart';
 
 function App() {
   let data2015 = require("./cs-module-data/data_2015_6.json")
